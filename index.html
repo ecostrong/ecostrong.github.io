@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>TREASURE HUNT</title>
+  <link rel="stylesheet" href="treasurehunt.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Lemonada:wght@500&family=Roboto:ital,wght@0,300;1,400&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1>Treasure Hunt</h1>
+     <h3>Rules</h3>
+     <ul>
+       <li>Click the correct square a treasure will appear </li>
+       <li>Click the wrong square a bomb icon will appear </li>
+       <li>Click any other square a tree icon will appear</li>
+     </ul>
+     <table border=1 >
+         <tr>
+           <td id=1 onclick="treasure(1)">?</td>
+           <td id=2 onclick="treasure(2)">?</td>
+           <td id=3 onclick="treasure(3)">?</td>
+         </tr>
+         <tr>
+           <td id=4 onclick="treasure(4)">?</td>
+           <td id=5 onclick="treasure(5)">?</td>
+           <td id=6 onclick="treasure(6)">?</td>
+         </tr>
+         <tr>
+           <td id=7 onclick="treasure(7)">?</td>
+           <td id=8 onclick="treasure(8)">?</td>
+           <td id=9 onclick="treasure(9)">?</td>
+         </tr>
+     </table>
+     <button type="button" name="button">New Game</button>
+     <script src="treasure.js" charset="utf-8"></script>
+  </body>
+
+</html>

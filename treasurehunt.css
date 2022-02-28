@@ -1,0 +1,31 @@
+
+h1 {
+  font-family: 'Lemonada', cursive;
+  color: #009900;
+  font-size: 60px;
+}
+
+h3 {
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background-image: url("https://www.wallpaperflare.com/static/264/160/929/art-underwater-sea-fish-wallpaper.jpg");
+  text-align: center;
+
+}
+
+li {
+  list-style: none;
+}
+
+table {
+
+  margin-left: 50%
+
+}
+
+td {padding-top: 50px;
+  padding-right: 30px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+}
